@@ -1,0 +1,5 @@
+data/real/*.wav
+data/fake/*.wav
+*.wav
+venv/
+__pycache__/

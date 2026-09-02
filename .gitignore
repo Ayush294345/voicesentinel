@@ -1,0 +1,7 @@
+backend/data/real/*.wav
+backend/data/fake/*.wav
+*.wav
+venv/
+__pycache__/
+*.db
+backend/venv/
