@@ -34,7 +34,7 @@ from core.speaker_verifier import compute_embedding, verify as speaker_verify
 from core.spoof_detector import analyze as spoof_analyze
 
 BASE_DIR = os.path.dirname(__file__)
-FRONTEND_DIR = os.path.join(BASE_DIR, "..", "frontend")
+FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
 
 app = FastAPI(title="VoiceSentinel API")
 
